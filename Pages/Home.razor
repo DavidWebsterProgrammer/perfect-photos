@@ -1,0 +1,152 @@
+﻿@page "/"
+
+<PageTitle>Take Perfect Photos</PageTitle>
+
+<div class="hero-section">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1 class="hero-title">
+                <span class="gradient-text">Take Perfect Photos</span>
+            </h1>
+            <p class="hero-subtitle">Master Photography with Ease</p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid course-container">
+    <div class="row">
+        <div class="col-12">
+            @foreach (var lesson in courseData)
+            {
+                @if (lesson.IsSectionHeading)
+                {
+                    <div class="section-heading mt-4">
+                        <h2 class="section-title">@lesson.ModuleNumber. @lesson.Name</h2>
+                    </div>
+                }
+                else
+                {
+                    <div class="lesson-item">
+                        <a href="@lesson.Url" class="lesson-card" target="_blank">
+                            <div class="lesson-content">
+                                <div class="lesson-text">
+                                    <h3 class="lesson-title"><strong>@lesson.ModuleNumber.@lesson.LessonNumber</strong> @lesson.Name</h3>
+                                </div>
+                                <div class="lesson-arrow">
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                            </div>
+                            <div class="lesson-hover-effect"></div>
+                        </a>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    public class LessonItem
+    {
+        public string Name { get; set; } = "";
+        public string Url { get; set; } = "";
+        public bool IsSectionHeading { get; set; }
+        public int ModuleNumber { get; set; }
+        public int LessonNumber { get; set; }
+    }
+
+    private void ProcessCourseData()
+    {
+        int moduleNumber = 0;
+        int lessonNumber = 0;
+
+        foreach (var lesson in courseData)
+        {
+            if (lesson.IsSectionHeading)
+            {
+                moduleNumber++;
+                lesson.ModuleNumber = moduleNumber;
+                lessonNumber = 0; // Reset lesson counter for new module
+            }
+            else
+            {
+                lessonNumber++;
+                lesson.ModuleNumber = moduleNumber;
+                lesson.LessonNumber = lessonNumber;
+            }
+        }
+    }
+
+    private List<LessonItem> courseData = new List<LessonItem>
+    {
+        new LessonItem { Name = "Introduction", IsSectionHeading = true },
+        new LessonItem { Name = "Your Camera", Url = "yourcamera/index.html" },
+        new LessonItem { Name = "Camera Accessories", Url = "cameraaccessories/index.html" },
+        new LessonItem { Name = "Image Terminology", Url = "imageterminology/index.html" },
+        new LessonItem { Name = "Photographic Terms", Url = "photographicterms/index.html" },
+        new LessonItem { Name = "Photography Basics", IsSectionHeading = true },
+        new LessonItem { Name = "Megapixels", Url = "megapixels/index.html" },
+        new LessonItem { Name = "What Happens When You Take a Photo", Url = "whathappenswhenyoutakeaphoto/index.html" },
+        new LessonItem { Name = "Shutter Speed", Url = "shutterspeed/index.html" },
+        new LessonItem { Name = "Aperture", Url = "aperture/index.html" },
+        new LessonItem { Name = "ISO Settings", Url = "isosettings/index.html" },
+        new LessonItem { Name = "White Balance", Url = "whitebalance/index.html" },
+        new LessonItem { Name = "Camera Features and Settings", IsSectionHeading = true },
+        new LessonItem { Name = "Camera Modes", Url = "cameramodes/index.html" },
+        new LessonItem { Name = "Why Not Use Automatic Settings?", Url = "whynotuseautomaticsettings/index.html" },
+        new LessonItem { Name = "Simple Ideas", IsSectionHeading = true },
+        new LessonItem { Name = "Keep the Camera Still", Url = "keepthecamerastill/index.html" },
+        new LessonItem { Name = "Backgrounds", Url = "backgrounds/index.html" },
+        new LessonItem { Name = "Rule of Thirds", Url = "ruleofthirds/index.html" },
+        new LessonItem { Name = "Framing Subjects", Url = "framingsubjects/index.html" },
+        new LessonItem { Name = "Getting Down Low", Url = "gettingdownlow/index.html" },
+        new LessonItem { Name = "Getting in Close", Url = "gettinginclose/index.html" },
+        new LessonItem { Name = "The Whole Story", Url = "thewholestory/index.html" },
+        new LessonItem { Name = "Candid Shots", Url = "candidshots/index.html" },
+        new LessonItem { Name = "Landscapes and Scenery", Url = "landscapesandscenery/index.html" },
+        new LessonItem { Name = "A Different Perspective", Url = "adifferentperspective/index.html" },
+        new LessonItem { Name = "Your Backyard", Url = "yourbackyard/index.html" },
+        new LessonItem { Name = "Lighting and Color", IsSectionHeading = true },
+        new LessonItem { Name = "Colors", Url = "colors/index.html" },
+        new LessonItem { Name = "Fill In Flash", Url = "fillinflash/index.html" },
+        new LessonItem { Name = "Lighting and the Sun", Url = "lightingandthesun/index.html" },
+        new LessonItem { Name = "Taking Photos for Online Auctions", Url = "takingphotosforonlineauctions/index.html" },
+        new LessonItem { Name = "Taking Shots in Low Light", Url = "takingshotsinlowlight/index.html" },
+        new LessonItem { Name = "Advanced Ideas", IsSectionHeading = true },
+        new LessonItem { Name = "Action Shots", Url = "actionshots/index.html" },
+        new LessonItem { Name = "Slow Shutter Speeds", Url = "slowshutterspeeds/index.html" },
+        new LessonItem { Name = "Exposure Bracketing", Url = "exposurebracketing/index.html" },
+        new LessonItem { Name = "Interval Timer Shooting", Url = "intervaltimershooting/index.html" },
+        new LessonItem { Name = "Depth of Field Effects", Url = "depthoffieldeffects/index.html" },
+        new LessonItem { Name = "Macro Photography", Url = "macrophotography/index.html" },
+        new LessonItem { Name = "Zooming In", Url = "zoomingin/index.html" },
+        new LessonItem { Name = "Shifting the Focus", Url = "shiftingthefocus/index.html" },
+        new LessonItem { Name = "Patterns, Lines, Repetition", Url = "patternslinesrepetition/index.html" },
+        new LessonItem { Name = "Reflections", Url = "reflections/index.html" },
+        new LessonItem { Name = "Ideas", Url = "ideas/index.html" },
+        new LessonItem { Name = "How We Got It", Url = "howwegotit/index.html" },
+        new LessonItem { Name = "Advanced Concepts", IsSectionHeading = true },
+        new LessonItem { Name = "Photo and Image Formats", Url = "photoandimageformats/index.html" },
+        new LessonItem { Name = "Chromatic Aberrations", Url = "chromaticaberrations/index.html" },
+        new LessonItem { Name = "Histograms", Url = "histograms/index.html" },
+        new LessonItem { Name = "Mobile Photography", IsSectionHeading = true },
+        new LessonItem { Name = "Mobile Photography Tips", Url = "mobilephotographytips/index.html" },
+        new LessonItem { Name = "Setting the Focus", Url = "settingthefocus/index.html" },
+        new LessonItem { Name = "Setting Exposure", Url = "settingexposure/index.html" },
+        new LessonItem { Name = "Photos on Your Computer", IsSectionHeading = true },
+        new LessonItem { Name = "Post Processing Ideas", Url = "postprocessingideas/index.html" },
+        new LessonItem { Name = "Metadata: Embedded Photo Information", Url = "metadataembeddedphotoinformation/index.html" },
+        new LessonItem { Name = "High Dynamic Range Photography", Url = "highdynamicrangephotography/index.html" },
+        new LessonItem { Name = "Geotagging", Url = "geotagging/index.html" },
+        new LessonItem { Name = "Assessments", IsSectionHeading = true },
+        new LessonItem { Name = "Assessment 1", Url = "assessment1/index.html" },
+        new LessonItem { Name = "Assessment 2", Url = "assessment2/index.html" },
+        new LessonItem { Name = "Assessment 3", Url = "assessment3/index.html" },
+        new LessonItem { Name = "Assessment 4", Url = "assessment4/index.html" }
+    };
+
+    protected override void OnInitialized()
+    {
+        ProcessCourseData();
+    }
+}

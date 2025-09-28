@@ -1,0 +1,165 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV='Content-Type' CONTENT='text/html; charset=iso-8859-1' />
+<TITLE>ISO Exercise</TITLE>
+<meta name="msapplication-window" content="width=1366;height=768"/>
+<meta name="application-name" content="ISO Exercise"/>
+<meta name="msapplication-tooltip" content="ISO Exercise"/>
+<meta name='msapplication-wide310x150logo' content='w8_310150.png'/>
+<meta name='msapplication-square70x70logo' content='w8_7070.png'/>
+<meta name='msapplication-square150x150logo' content='w8_150150.png'/>
+<meta name='msapplication-square310x310logo' content='w8_310310.png'/>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7,IE=EmulateIE8,IE=EmulateIE9,IE=EmulateIE10"/>
+<meta name="viewport" content="width=1366, target-densitydpi=device-dpi, user-scalable=no, minimal-ui"/>
+<SCRIPT>
+var ishoney = 0
+if(navigator.userAgent.indexOf('Android')>-1){
+tmp=navigator.userAgent.split('Android')
+vers=parseInt(tmp[1])
+if(vers>=3){ishoney=1}
+}
+metatags = document.getElementsByTagName("meta");
+for (cnt = 0; cnt < metatags.length; cnt++){
+if (metatags[cnt].getAttribute("name") == "viewport"){
+if(navigator.userAgent.indexOf('iPad')>-1||navigator.userAgent.indexOf('iPhone')>-1||navigator.userAgent.indexOf('iPod')>-1){
+metatags[cnt].setAttribute("content", "width=1366, user-scalable=no, minimal-ui");
+}
+}
+}
+</SCRIPT>
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="1366"/>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7,IE=EmulateIE8,IE=EmulateIE9,IE=EmulateIE10"/>
+<meta name='msapplication-square70x70logo' content='w8_7070.png'/>
+<meta name='msapplication-square150x150logo' content='w8_150150.png'/>
+<meta name='msapplication-wide310x150logo' content='w8_310150.png'/>
+<meta name='msapplication-square310x310logo' content='w8_310310.png'/>
+<STYLE TYPE='text/css'>
+body {-ms-touch-action:none; -ms-content-zooming:none; -webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-user-select:none;}
+P {font-family:Segoe UI,Thornburi,Droid Sans,Arial;font-size:11pt;}
+</STYLE>
+<link rel="apple-touch-icon" href="suicon.png">
+<link rel="icon" type="image/png" href="suicon.png">
+<link rel="icon" sizes="192x192" type="image/png" href="androidicon.png">
+<meta name="msapplication-TileImage" content="mssuicon.png"/>
+<meta name="msapplication-TileColor" content="#336699"/>
+</HEAD>
+<BODY onresize=resizeit() onload=loadit() scroll=no style='margin-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;' bgcolor='#336699'>
+<SCRIPT>
+var iswp=false
+if (navigator.userAgent.toLowerCase().indexOf('windows phone')>-1){iswp=true}
+function found(){if (iswp||xisios||xisandroidphone){location.replace('phone/index.html?redir=1')}}
+function notfound(){if (xisandroid||xisios||xisipad){location.replace('isoexercise.html' + location.search)}}
+var xisandroid=false, xisipad=false, xisios=false, xisandroidphone=false, wwidth=screen.width,hheight=screen.height
+if(navigator.userAgent.indexOf('iPad')>-1){xisipad=true}
+if(navigator.userAgent.indexOf('iPhone')>-1||navigator.userAgent.indexOf('iPod')>-1){xisios=true}
+if(navigator.userAgent.indexOf('Android')>-1){xisandroid=true}
+if(xisandroid&&hheight>wwidth){xisandroidphone=true}
+if (xisios||xisandroidphone){document.write("<IMG style='visibility:hidden;position:absolute;' SRC='phone/_kpinvis.gif' onerror='notfound()' onload='found()'>")}
+</SCRIPT>
+<SCRIPT>
+var oheight=768
+var owidth=1366
+var isitouch=0, isios=0, isandroid=0
+if(navigator.userAgent.indexOf('Mobile Safari')>-1){isitouch=1}
+if(navigator.userAgent.indexOf('Safari')>-1&&(navigator.userAgent.indexOf('iPhone')>-1||navigator.userAgent.indexOf('iPod')>-1)){isitouch=1}
+if(navigator.userAgent.indexOf('Safari')>-1&&navigator.userAgent.indexOf('iPad')>-1){isitouch=1}
+if(navigator.userAgent.indexOf('iPad')>-1||navigator.userAgent.indexOf('iPhone')>-1||navigator.userAgent.indexOf('iPod')>-1){isitouch=1}
+if(navigator.userAgent.indexOf('iPad')>-1||navigator.userAgent.indexOf('iPhone')>-1||navigator.userAgent.indexOf('iPod')>-1){isios=1}
+if (navigator.userAgent.indexOf('Android')>-1){isandroid=1,isitouch=0,isiphone=0}
+if (xisipad||(xisandroid&&xisandroidphone==false)){
+location.replace('isoexercise.html' + location.search)
+}
+if (isitouch){
+document.write('<TABLE WIDTH=100% height=100% cellspacing=0 cellpadding=0><TD valign=middle align=center>')
+}else{
+if (navigator.userAgent.indexOf('IEMobile')>-1){
+cheight=768
+setheight=(document.body.clientWidth/screen.width) * document.body.clientHeight
+document.write('<TABLE WIDTH=100% height=' + setheight + ' cellspacing=0 cellpadding=0><TD valign=middle align=center>')
+}else{
+document.write('<TABLE WIDTH=100% height=100% cellspacing=0 cellpadding=0><TD valign=middle align=center>')
+}
+}
+</SCRIPT>
+<SCRIPT>
+function getArg(arg){if(location.search==''){return ''}
+aGs=location.search.substring(1,location.search.length) + '&'
+aGspos = aGs.indexOf(arg)
+if(aGspos>-1){aGs=aGs.substring(aGspos,aGs.length)
+aGspos=aGs.indexOf('&')
+aGs = aGs.substring(0, aGspos)
+aGspos=aGs.indexOf('=')
+aGs = aGs.substring(aGspos + 1, aGs.length)
+return aGs
+}else{return ''}}
+var canloadfull=true
+var resizet=0
+var tbro='nn', issafari=false, safaripc=false
+if(document.all){tbro='ie'}
+if(parseInt(navigator.appVersion)>=5){tbro='ienn'}
+if(navigator.appName=='Microsoft Internet Explorer'){tbro='ie'}
+var navp=navigator.platform
+if(navp=='MacPPC'||navp=='Mac68K'){navp='Mac'}
+if(navigator.userAgent.indexOf('Safari')>-1){issafari=true}
+if(issafari&&navp=='Mac'){safarimac=true}
+if(issafari&&(navp=='Win32'||navp=='Win64')){safaripc=true}
+var isiphone=0, isitouch=0, isipadapp=false
+if(navigator.userAgent.indexOf('Mobile Safari')>-1){isiphone=1}
+if(navigator.userAgent.indexOf('Safari')>-1&&(navigator.userAgent.indexOf('iPhone')>-1||navigator.userAgent.indexOf('iPod')>-1)){isiphone=1}
+if(navigator.userAgent.indexOf('Safari')>-1&&navigator.userAgent.indexOf('iPad')>-1){isitouch=1}
+if((navigator.userAgent.indexOf('iPhone')>-1||navigator.userAgent.indexOf('iPod')>-1)){isiphone=1}
+if(navigator.userAgent.indexOf('iPad')>-1){isitouch=1}
+if (navigator.userAgent.indexOf('Android')>-1){
+isitouch = 0
+isiphone = 0
+}
+isitouch = 0
+isiphone = 0
+if (isiphone==1||isitouch==1){
+}
+function resizeit(){
+if (isiphone==1||isitouch==1){return}
+var canzoom = true
+var dozoom=1, dozoom2=(getArg('zoom'))
+if(dozoom2=='false'||dozoom2=='0'){canzoom=false}
+ctheheight=document.body.clientHeight
+cthewidth=document.body.clientWidth
+if (navigator.userAgent.toLowerCase().indexOf('windows phone')>-1){
+ctheheight=window.innerHeight
+cthewidth=window.innerWidth
+}
+zratio=ctheheight / oheight
+if((owidth * zratio)>cthewidth){zratio=cthewidth / owidth}
+if (resizet==1){if (zratio<1){zratio==1}}
+if (canzoom==false){zratio=1}
+mf.style.height=oheight * zratio
+mf.style.width=owidth * zratio
+lpos=(cthewidth-(owidth * zratio))/2, tpos=(ctheheight-(oheight * zratio))/2
+if (lpos<0){lpos=0}
+if (tpos<0){tpos=0}
+mf.style.left=lpos
+mf.style.top=tpos
+}
+var frex=0, frex2=0
+if (isitouch!=1){
+document.write("<DIV id='li' style='position:absolute;left:0px;top:0px;visibility:visible;'><P style='color:white;font-size:14pt;margin-left:8px;margin-top:8px;'>Loading <B>ISO Exercise</B>...</P></DIV>")
+document.write("<DIV id='mf' style='position:absolute;left:0px;top:0px;visibility:hidden;width:1366px;height:768px'>")
+frex="<IFRAME allowfullscreen scrolling='no' frameborder=no id='acx' src='isoexercise.html" + location.search + "' style='width:100%;height:100%'>"
+document.write("</DIV>")
+}
+function loadit(){
+if (isitouch==1){return}
+frex2=setTimeout('fl()',1000)
+}
+function fl(){
+if (isitouch==1){return}
+mf.innerHTML=frex
+mf.style.visibility='visible'
+li.style.visibility='hidden'
+resizeit()
+}
+</SCRIPT>
+</TD></TABLE>
+</BODY>
+</HTML>

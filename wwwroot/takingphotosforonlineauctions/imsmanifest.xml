@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<manifest identifier="MANIFEST1" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<organizations default="TOC1">
+		<organization identifier="TOC1" structure="hierarchical">
+			<title>Taking Photos for Online Auctions</title>
+			<item identifier="ITEM1" identifierref="RESOURCE1" isvisible="true">
+				<title>Taking Photos for Online Auctions</title>
+			</item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="RESOURCE1" type="webcontent" adlcp:scormtype="sco" href="index.html">
+			<metadata>
+				<schema>ADL Scorm</schema>
+				<schemaversion>1.2</schemaversion>
+			</metadata>
+			<file href="index.html"/>
+			<dependency identifierref="KP_1"/>
+			<dependency identifierref="KP_2"/>
+			<dependency identifierref="KP_3"/>
+			<dependency identifierref="KP_4"/>
+			<dependency identifierref="KP_5"/>
+			<dependency identifierref="KP_6"/>
+			<dependency identifierref="KP_7"/>
+			<dependency identifierref="KP_8"/>
+			<dependency identifierref="KP_9"/>
+			<dependency identifierref="KP_10"/>
+			<dependency identifierref="KP_11"/>
+			<dependency identifierref="KP_12"/>
+			<dependency identifierref="KP_13"/>
+			<dependency identifierref="KP_14"/>
+			<dependency identifierref="KP_15"/>
+			<dependency identifierref="KP_16"/>
+			<dependency identifierref="KP_17"/>
+			<dependency identifierref="KP_18"/>
+			<dependency identifierref="KP_19"/>
+			<dependency identifierref="KP_20"/>
+			<dependency identifierref="KP_21"/>
+			<dependency identifierref="KP_22"/>
+			<dependency identifierref="KP_23"/>
+			<dependency identifierref="KP_24"/>
+			<dependency identifierref="KP_25"/>
+			<dependency identifierref="KP_26"/>
+			<dependency identifierref="KP_27"/>
+			<dependency identifierref="KP_28"/>
+			<dependency identifierref="KP_29"/>
+			<dependency identifierref="KP_30"/>
+			<dependency identifierref="KP_31"/>
+			<dependency identifierref="KP_32"/>
+			<dependency identifierref="KP_33"/>
+			<dependency identifierref="KP_34"/>
+			<dependency identifierref="KP_35"/>
+			<dependency identifierref="KP_36"/>
+			<dependency identifierref="KP_37"/>
+			<dependency identifierref="KP_38"/>
+			<dependency identifierref="KP_39"/>
+			<dependency identifierref="KP_40"/>
+			<dependency identifierref="KP_41"/>
+			<dependency identifierref="KP_42"/>
+			<dependency identifierref="KP_43"/>
+			<dependency identifierref="KP_44"/>
+			<dependency identifierref="KP_45"/>
+			<dependency identifierref="KP_46"/>
+			<dependency identifierref="KP_47"/>
+			<dependency identifierref="KP_48"/>
+			<dependency identifierref="KP_49"/>
+			<dependency identifierref="KP_50"/>
+			<dependency identifierref="KP_51"/>
+			<dependency identifierref="KP_52"/>
+			<dependency identifierref="KP_53"/>
+			<dependency identifierref="KP_54"/>
+			<dependency identifierref="KP_55"/>
+			<dependency identifierref="KP_56"/>
+			<dependency identifierref="KP_57"/>
+			<dependency identifierref="KP_58"/>
+			<dependency identifierref="KP_59"/>
+			<dependency identifierref="KP_60"/>
+			<dependency identifierref="KP_61"/>
+			<dependency identifierref="KP_62"/>
+			<dependency identifierref="KP_63"/>
+			<dependency identifierref="KP_64"/>
+			<dependency identifierref="KP_65"/>
+			<dependency identifierref="KP_66"/>
+			<dependency identifierref="KP_67"/>
+			<dependency identifierref="KP_68"/>
+			<dependency identifierref="KP_69"/>
+			<dependency identifierref="KP_70"/>
+			<dependency identifierref="KP_71"/>
+			<dependency identifierref="KP_72"/>
+			<dependency identifierref="KP_73"/>
+			<dependency identifierref="KP_74"/>
+			<dependency identifierref="KP_75"/>
+			<dependency identifierref="KP_76"/>
+			<dependency identifierref="KP_77"/>
+			<dependency identifierref="KP_78"/>
+			<dependency identifierref="KP_79"/>
+			<dependency identifierref="KP_80"/>
+			<dependency identifierref="KP_81"/>
+			<dependency identifierref="KP_82"/>
+			<dependency identifierref="KP_83"/>
+			<dependency identifierref="KP_84"/>
+			<dependency identifierref="KP_85"/>
+			<dependency identifierref="KP_86"/>
+			<dependency identifierref="KP_87"/>
+			<dependency identifierref="KP_88"/>
+			<dependency identifierref="KP_89"/>
+			<dependency identifierref="KP_90"/>
+			<dependency identifierref="KP_91"/>
+			<dependency identifierref="KP_92"/>
+			<dependency identifierref="KP_93"/>
+			<dependency identifierref="KP_94"/>
+			<dependency identifierref="KP_95"/>
+			<dependency identifierref="KP_96"/>
+			<dependency identifierref="KP_97"/>
+			<dependency identifierref="KP_98"/>
+			<dependency identifierref="KP_99"/>
+			<dependency identifierref="KP_100"/>
+			<dependency identifierref="KP_101"/>
+			<dependency identifierref="KP_102"/>
+			<dependency identifierref="KP_103"/>
+			<dependency identifierref="KP_104"/>
+			<dependency identifierref="KP_105"/>
+			<dependency identifierref="KP_106"/>
+			<dependency identifierref="KP_107"/>
+			<dependency identifierref="KP_108"/>
+			<dependency identifierref="KP_109"/>
+			<dependency identifierref="KP_110"/>
+			<dependency identifierref="KP_111"/>
+			<dependency identifierref="KP_112"/>
+			<dependency identifierref="KP_113"/>
+			<dependency identifierref="KP_114"/>
+			<dependency identifierref="KP_115"/>
+			<dependency identifierref="KP_116"/>
+			<dependency identifierref="KP_117"/>
+			<dependency identifierref="KP_118"/>
+			<dependency identifierref="KP_119"/>
+			<dependency identifierref="KP_120"/>
+			<dependency identifierref="KP_121"/>
+			<dependency identifierref="KP_122"/>
+			<dependency identifierref="KP_123"/>
+			<dependency identifierref="KP_124"/>
+			<dependency identifierref="KP_125"/>
+			<dependency identifierref="KP_126"/>
+			<dependency identifierref="KP_127"/>
+			<dependency identifierref="KP_128"/>
+			<dependency identifierref="KP_129"/>
+			<dependency identifierref="KP_130"/>
+			<dependency identifierref="KP_131"/>
+			<dependency identifierref="KP_132"/>
+			<dependency identifierref="KP_133"/>
+			<dependency identifierref="KP_134"/>
+			<dependency identifierref="KP_135"/>
+			<dependency identifierref="KP_136"/>
+			<dependency identifierref="KP_137"/>
+			<dependency identifierref="KP_138"/>
+			<dependency identifierref="KP_139"/>
+			<dependency identifierref="KP_140"/>
+			<dependency identifierref="KP_141"/>
+			<dependency identifierref="KP_142"/>
+			<dependency identifierref="KP_143"/>
+			<dependency identifierref="KP_144"/>
+			<dependency identifierref="KP_145"/>
+			<dependency identifierref="KP_146"/>
+			<dependency identifierref="KP_147"/>
+			<dependency identifierref="KP_148"/>
+			<dependency identifierref="KP_149"/>
+			<dependency identifierref="KP_150"/>
+			<dependency identifierref="KP_151"/>
+			<dependency identifierref="KP_152"/>
+			<dependency identifierref="KP_153"/>
+			<dependency identifierref="KP_154"/>
+			<dependency identifierref="KP_155"/>
+			<dependency identifierref="KP_156"/>
+			<dependency identifierref="KP_157"/>
+			<dependency identifierref="KP_158"/>
+			<dependency identifierref="KP_159"/>
+			<dependency identifierref="KP_160"/>
+			<dependency identifierref="KP_161"/>
+			<dependency identifierref="KP_162"/>
+			<dependency identifierref="KP_163"/>
+			<dependency identifierref="KP_164"/>
+			<dependency identifierref="KP_165"/>
+			<dependency identifierref="KP_166"/>
+			<dependency identifierref="KP_167"/>
+			<dependency identifierref="KP_168"/>
+			<dependency identifierref="KP_169"/>
+			<dependency identifierref="KP_170"/>
+			<dependency identifierref="KP_171"/>
+		</resource>
+		<resource identifier="KP_1" type="webcontent" adlcp:scormtype="asset" href="00001.cur">
+			<file href="00001.cur"/>
+		</resource>
+		<resource identifier="KP_2" type="webcontent" adlcp:scormtype="asset" href="ac.js">
+			<file href="ac.js"/>
+		</resource>
+		<resource identifier="KP_3" type="webcontent" adlcp:scormtype="asset" href="adlcp_rootv1p2.xsd">
+			<file href="adlcp_rootv1p2.xsd"/>
+		</resource>
+		<resource identifier="KP_4" type="webcontent" adlcp:scormtype="asset" href="androidicon.png">
+			<file href="androidicon.png"/>
+		</resource>
+		<resource identifier="KP_5" type="webcontent" adlcp:scormtype="asset" href="favicon.ico">
+			<file href="favicon.ico"/>
+		</resource>
+		<resource identifier="KP_6" type="webcontent" adlcp:scormtype="asset" href="ie10css.css">
+			<file href="ie10css.css"/>
+		</resource>
+		<resource identifier="KP_7" type="webcontent" adlcp:scormtype="asset" href="imscp_rootv1p1p2.xsd">
+			<file href="imscp_rootv1p1p2.xsd"/>
+		</resource>
+		<resource identifier="KP_8" type="webcontent" adlcp:scormtype="asset" href="imsmd_rootv1p2p1.xsd">
+			<file href="imsmd_rootv1p2p1.xsd"/>
+		</resource>
+		<resource identifier="KP_9" type="webcontent" adlcp:scormtype="asset" href="ims_xml.xsd">
+			<file href="ims_xml.xsd"/>
+		</resource>
+		<resource identifier="KP_10" type="webcontent" adlcp:scormtype="asset" href="index.html">
+			<file href="index.html"/>
+		</resource>
+		<resource identifier="KP_11" type="webcontent" adlcp:scormtype="asset" href="kpani_winwait.gif">
+			<file href="kpani_winwait.gif"/>
+		</resource>
+		<resource identifier="KP_12" type="webcontent" adlcp:scormtype="asset" href="kpindex.png">
+			<file href="kpindex.png"/>
+		</resource>
+		<resource identifier="KP_13" type="webcontent" adlcp:scormtype="asset" href="mssuicon.png">
+			<file href="mssuicon.png"/>
+		</resource>
+		<resource identifier="KP_14" type="webcontent" adlcp:scormtype="asset" href="po1417_342345775.png">
+			<file href="po1417_342345775.png"/>
+		</resource>
+		<resource identifier="KP_15" type="webcontent" adlcp:scormtype="asset" href="safaricss.css">
+			<file href="safaricss.css"/>
+		</resource>
+		<resource identifier="KP_16" type="webcontent" adlcp:scormtype="asset" href="suicon.png">
+			<file href="suicon.png"/>
+		</resource>
+		<resource identifier="KP_17" type="webcontent" adlcp:scormtype="asset" href="ta10072_68636895.jpg">
+			<file href="ta10072_68636895.jpg"/>
+		</resource>
+		<resource identifier="KP_18" type="webcontent" adlcp:scormtype="asset" href="ta10122_292846919.jpg">
+			<file href="ta10122_292846919.jpg"/>
+		</resource>
+		<resource identifier="KP_19" type="webcontent" adlcp:scormtype="asset" href="ta10172_252614737.png">
+			<file href="ta10172_252614737.png"/>
+		</resource>
+		<resource identifier="KP_20" type="webcontent" adlcp:scormtype="asset" href="ta10745_759988785.jpg">
+			<file href="ta10745_759988785.jpg"/>
+		</resource>
+		<resource identifier="KP_21" type="webcontent" adlcp:scormtype="asset" href="ta10790_77236773.gif">
+			<file href="ta10790_77236773.gif"/>
+		</resource>
+		<resource identifier="KP_22" type="webcontent" adlcp:scormtype="asset" href="ta10979_846666098.png">
+			<file href="ta10979_846666098.png"/>
+		</resource>
+		<resource identifier="KP_23" type="webcontent" adlcp:scormtype="asset" href="ta11300_733055592.png">
+			<file href="ta11300_733055592.png"/>
+		</resource>
+		<resource identifier="KP_24" type="webcontent" adlcp:scormtype="asset" href="ta11460_846583128.png">
+			<file href="ta11460_846583128.png"/>
+		</resource>
+		<resource identifier="KP_25" type="webcontent" adlcp:scormtype="asset" href="ta11558_288684011.png">
+			<file href="ta11558_288684011.png"/>
+		</resource>
+		<resource identifier="KP_26" type="webcontent" adlcp:scormtype="asset" href="ta11851_653666854.jpg">
+			<file href="ta11851_653666854.jpg"/>
+		</resource>
+		<resource identifier="KP_27" type="webcontent" adlcp:scormtype="asset" href="ta11869_696632862.gif">
+			<file href="ta11869_696632862.gif"/>
+		</resource>
+		<resource identifier="KP_28" type="webcontent" adlcp:scormtype="asset" href="ta12034_46789647.png">
+			<file href="ta12034_46789647.png"/>
+		</resource>
+		<resource identifier="KP_29" type="webcontent" adlcp:scormtype="asset" href="ta1203_770570040.png">
+			<file href="ta1203_770570040.png"/>
+		</resource>
+		<resource identifier="KP_30" type="webcontent" adlcp:scormtype="asset" href="ta12067_644288540.jpg">
+			<file href="ta12067_644288540.jpg"/>
+		</resource>
+		<resource identifier="KP_31" type="webcontent" adlcp:scormtype="asset" href="ta12121_685964823.jpg">
+			<file href="ta12121_685964823.jpg"/>
+		</resource>
+		<resource identifier="KP_32" type="webcontent" adlcp:scormtype="asset" href="ta12247_786875606.jpg">
+			<file href="ta12247_786875606.jpg"/>
+		</resource>
+		<resource identifier="KP_33" type="webcontent" adlcp:scormtype="asset" href="ta12344_206476808.jpg">
+			<file href="ta12344_206476808.jpg"/>
+		</resource>
+		<resource identifier="KP_34" type="webcontent" adlcp:scormtype="asset" href="ta12493_622754932.png">
+			<file href="ta12493_622754932.png"/>
+		</resource>
+		<resource identifier="KP_35" type="webcontent" adlcp:scormtype="asset" href="ta12539_184219480.jpg">
+			<file href="ta12539_184219480.jpg"/>
+		</resource>
+		<resource identifier="KP_36" type="webcontent" adlcp:scormtype="asset" href="ta12993_492965580.png">
+			<file href="ta12993_492965580.png"/>
+		</resource>
+		<resource identifier="KP_37" type="webcontent" adlcp:scormtype="asset" href="ta13089_43650867.jpg">
+			<file href="ta13089_43650867.jpg"/>
+		</resource>
+		<resource identifier="KP_38" type="webcontent" adlcp:scormtype="asset" href="ta13178_64445854.jpg">
+			<file href="ta13178_64445854.jpg"/>
+		</resource>
+		<resource identifier="KP_39" type="webcontent" adlcp:scormtype="asset" href="ta13236_943814039.png">
+			<file href="ta13236_943814039.png"/>
+		</resource>
+		<resource identifier="KP_40" type="webcontent" adlcp:scormtype="asset" href="ta13654_375072599.gif">
+			<file href="ta13654_375072599.gif"/>
+		</resource>
+		<resource identifier="KP_41" type="webcontent" adlcp:scormtype="asset" href="ta13656_239943386.jpg">
+			<file href="ta13656_239943386.jpg"/>
+		</resource>
+		<resource identifier="KP_42" type="webcontent" adlcp:scormtype="asset" href="ta13836_75362922.jpg">
+			<file href="ta13836_75362922.jpg"/>
+		</resource>
+		<resource identifier="KP_43" type="webcontent" adlcp:scormtype="asset" href="ta14016_893464923.png">
+			<file href="ta14016_893464923.png"/>
+		</resource>
+		<resource identifier="KP_44" type="webcontent" adlcp:scormtype="asset" href="ta14731_240456343.png">
+			<file href="ta14731_240456343.png"/>
+		</resource>
+		<resource identifier="KP_45" type="webcontent" adlcp:scormtype="asset" href="ta14775_825054646.jpg">
+			<file href="ta14775_825054646.jpg"/>
+		</resource>
+		<resource identifier="KP_46" type="webcontent" adlcp:scormtype="asset" href="ta14788_631391406.jpg">
+			<file href="ta14788_631391406.jpg"/>
+		</resource>
+		<resource identifier="KP_47" type="webcontent" adlcp:scormtype="asset" href="ta15138_562255741.jpg">
+			<file href="ta15138_562255741.jpg"/>
+		</resource>
+		<resource identifier="KP_48" type="webcontent" adlcp:scormtype="asset" href="ta151_65198780.jpg">
+			<file href="ta151_65198780.jpg"/>
+		</resource>
+		<resource identifier="KP_49" type="webcontent" adlcp:scormtype="asset" href="ta15600_205720068.jpg">
+			<file href="ta15600_205720068.jpg"/>
+		</resource>
+		<resource identifier="KP_50" type="webcontent" adlcp:scormtype="asset" href="ta15797_433998466.png">
+			<file href="ta15797_433998466.png"/>
+		</resource>
+		<resource identifier="KP_51" type="webcontent" adlcp:scormtype="asset" href="ta1593_914274216.png">
+			<file href="ta1593_914274216.png"/>
+		</resource>
+		<resource identifier="KP_52" type="webcontent" adlcp:scormtype="asset" href="ta16004_733689904.png">
+			<file href="ta16004_733689904.png"/>
+		</resource>
+		<resource identifier="KP_53" type="webcontent" adlcp:scormtype="asset" href="ta16644_931448102.jpg">
+			<file href="ta16644_931448102.jpg"/>
+		</resource>
+		<resource identifier="KP_54" type="webcontent" adlcp:scormtype="asset" href="ta16995_73030950.jpg">
+			<file href="ta16995_73030950.jpg"/>
+		</resource>
+		<resource identifier="KP_55" type="webcontent" adlcp:scormtype="asset" href="ta17130_676653147.jpg">
+			<file href="ta17130_676653147.jpg"/>
+		</resource>
+		<resource identifier="KP_56" type="webcontent" adlcp:scormtype="asset" href="ta17868_582091451.jpg">
+			<file href="ta17868_582091451.jpg"/>
+		</resource>
+		<resource identifier="KP_57" type="webcontent" adlcp:scormtype="asset" href="ta17878_615961314.png">
+			<file href="ta17878_615961314.png"/>
+		</resource>
+		<resource identifier="KP_58" type="webcontent" adlcp:scormtype="asset" href="ta18231_854496122.png">
+			<file href="ta18231_854496122.png"/>
+		</resource>
+		<resource identifier="KP_59" type="webcontent" adlcp:scormtype="asset" href="ta1839_814241529.jpg">
+			<file href="ta1839_814241529.jpg"/>
+		</resource>
+		<resource identifier="KP_60" type="webcontent" adlcp:scormtype="asset" href="ta18489_594298244.png">
+			<file href="ta18489_594298244.png"/>
+		</resource>
+		<resource identifier="KP_61" type="webcontent" adlcp:scormtype="asset" href="ta18598_54088474.jpg">
+			<file href="ta18598_54088474.jpg"/>
+		</resource>
+		<resource identifier="KP_62" type="webcontent" adlcp:scormtype="asset" href="ta18630_765353918.png">
+			<file href="ta18630_765353918.png"/>
+		</resource>
+		<resource identifier="KP_63" type="webcontent" adlcp:scormtype="asset" href="ta18694_909033179.jpg">
+			<file href="ta18694_909033179.jpg"/>
+		</resource>
+		<resource identifier="KP_64" type="webcontent" adlcp:scormtype="asset" href="ta19209_972382545.png">
+			<file href="ta19209_972382545.png"/>
+		</resource>
+		<resource identifier="KP_65" type="webcontent" adlcp:scormtype="asset" href="ta19403_568505407.jpg">
+			<file href="ta19403_568505407.jpg"/>
+		</resource>
+		<resource identifier="KP_66" type="webcontent" adlcp:scormtype="asset" href="ta19434_727249742.png">
+			<file href="ta19434_727249742.png"/>
+		</resource>
+		<resource identifier="KP_67" type="webcontent" adlcp:scormtype="asset" href="ta19628_857439160.jpg">
+			<file href="ta19628_857439160.jpg"/>
+		</resource>
+		<resource identifier="KP_68" type="webcontent" adlcp:scormtype="asset" href="ta196_437307478.png">
+			<file href="ta196_437307478.png"/>
+		</resource>
+		<resource identifier="KP_69" type="webcontent" adlcp:scormtype="asset" href="ta19822_209345461.gif">
+			<file href="ta19822_209345461.gif"/>
+		</resource>
+		<resource identifier="KP_70" type="webcontent" adlcp:scormtype="asset" href="ta19893_140403987.png">
+			<file href="ta19893_140403987.png"/>
+		</resource>
+		<resource identifier="KP_71" type="webcontent" adlcp:scormtype="asset" href="ta20171_866540313.png">
+			<file href="ta20171_866540313.png"/>
+		</resource>
+		<resource identifier="KP_72" type="webcontent" adlcp:scormtype="asset" href="ta20173_577827335.jpg">
+			<file href="ta20173_577827335.jpg"/>
+		</resource>
+		<resource identifier="KP_73" type="webcontent" adlcp:scormtype="asset" href="ta20579_66482903.gif">
+			<file href="ta20579_66482903.gif"/>
+		</resource>
+		<resource identifier="KP_74" type="webcontent" adlcp:scormtype="asset" href="ta2070_865780831.jpg">
+			<file href="ta2070_865780831.jpg"/>
+		</resource>
+		<resource identifier="KP_75" type="webcontent" adlcp:scormtype="asset" href="ta20795_513810754.jpg">
+			<file href="ta20795_513810754.jpg"/>
+		</resource>
+		<resource identifier="KP_76" type="webcontent" adlcp:scormtype="asset" href="ta21729_893515110.jpg">
+			<file href="ta21729_893515110.jpg"/>
+		</resource>
+		<resource identifier="KP_77" type="webcontent" adlcp:scormtype="asset" href="ta21831_956773162.gif">
+			<file href="ta21831_956773162.gif"/>
+		</resource>
+		<resource identifier="KP_78" type="webcontent" adlcp:scormtype="asset" href="ta22062_34857274.png">
+			<file href="ta22062_34857274.png"/>
+		</resource>
+		<resource identifier="KP_79" type="webcontent" adlcp:scormtype="asset" href="ta22089_772798658.png">
+			<file href="ta22089_772798658.png"/>
+		</resource>
+		<resource identifier="KP_80" type="webcontent" adlcp:scormtype="asset" href="ta22422_397391797.jpg">
+			<file href="ta22422_397391797.jpg"/>
+		</resource>
+		<resource identifier="KP_81" type="webcontent" adlcp:scormtype="asset" href="ta2278_270514489.jpg">
+			<file href="ta2278_270514489.jpg"/>
+		</resource>
+		<resource identifier="KP_82" type="webcontent" adlcp:scormtype="asset" href="ta22945_936907768.png">
+			<file href="ta22945_936907768.png"/>
+		</resource>
+		<resource identifier="KP_83" type="webcontent" adlcp:scormtype="asset" href="ta2297_170261026.png">
+			<file href="ta2297_170261026.png"/>
+		</resource>
+		<resource identifier="KP_84" type="webcontent" adlcp:scormtype="asset" href="ta23208_421997905.jpg">
+			<file href="ta23208_421997905.jpg"/>
+		</resource>
+		<resource identifier="KP_85" type="webcontent" adlcp:scormtype="asset" href="ta23619_112647654.jpg">
+			<file href="ta23619_112647654.jpg"/>
+		</resource>
+		<resource identifier="KP_86" type="webcontent" adlcp:scormtype="asset" href="ta23912_485720754.png">
+			<file href="ta23912_485720754.png"/>
+		</resource>
+		<resource identifier="KP_87" type="webcontent" adlcp:scormtype="asset" href="ta24362_75723649.png">
+			<file href="ta24362_75723649.png"/>
+		</resource>
+		<resource identifier="KP_88" type="webcontent" adlcp:scormtype="asset" href="ta24860_967931032.jpg">
+			<file href="ta24860_967931032.jpg"/>
+		</resource>
+		<resource identifier="KP_89" type="webcontent" adlcp:scormtype="asset" href="ta24910_457720280.jpg">
+			<file href="ta24910_457720280.jpg"/>
+		</resource>
+		<resource identifier="KP_90" type="webcontent" adlcp:scormtype="asset" href="ta24911_352043987.gif">
+			<file href="ta24911_352043987.gif"/>
+		</resource>
+		<resource identifier="KP_91" type="webcontent" adlcp:scormtype="asset" href="ta24989_834355474.png">
+			<file href="ta24989_834355474.png"/>
+		</resource>
+		<resource identifier="KP_92" type="webcontent" adlcp:scormtype="asset" href="ta25047_59571386.png">
+			<file href="ta25047_59571386.png"/>
+		</resource>
+		<resource identifier="KP_93" type="webcontent" adlcp:scormtype="asset" href="ta25612_66508056.jpg">
+			<file href="ta25612_66508056.jpg"/>
+		</resource>
+		<resource identifier="KP_94" type="webcontent" adlcp:scormtype="asset" href="ta25693_308014036.png">
+			<file href="ta25693_308014036.png"/>
+		</resource>
+		<resource identifier="KP_95" type="webcontent" adlcp:scormtype="asset" href="ta25734_794523359.jpg">
+			<file href="ta25734_794523359.jpg"/>
+		</resource>
+		<resource identifier="KP_96" type="webcontent" adlcp:scormtype="asset" href="ta25952_860734344.jpg">
+			<file href="ta25952_860734344.jpg"/>
+		</resource>
+		<resource identifier="KP_97" type="webcontent" adlcp:scormtype="asset" href="ta26404_538461924.jpg">
+			<file href="ta26404_538461924.jpg"/>
+		</resource>
+		<resource identifier="KP_98" type="webcontent" adlcp:scormtype="asset" href="ta26476_500110388.jpg">
+			<file href="ta26476_500110388.jpg"/>
+		</resource>
+		<resource identifier="KP_99" type="webcontent" adlcp:scormtype="asset" href="ta26566_850572586.jpg">
+			<file href="ta26566_850572586.jpg"/>
+		</resource>
+		<resource identifier="KP_100" type="webcontent" adlcp:scormtype="asset" href="ta26708_437883139.jpg">
+			<file href="ta26708_437883139.jpg"/>
+		</resource>
+		<resource identifier="KP_101" type="webcontent" adlcp:scormtype="asset" href="ta26764_165438653.jpg">
+			<file href="ta26764_165438653.jpg"/>
+		</resource>
+		<resource identifier="KP_102" type="webcontent" adlcp:scormtype="asset" href="ta2707_282981873.jpg">
+			<file href="ta2707_282981873.jpg"/>
+		</resource>
+		<resource identifier="KP_103" type="webcontent" adlcp:scormtype="asset" href="ta27727_906012654.gif">
+			<file href="ta27727_906012654.gif"/>
+		</resource>
+		<resource identifier="KP_104" type="webcontent" adlcp:scormtype="asset" href="ta27806_333463431.jpg">
+			<file href="ta27806_333463431.jpg"/>
+		</resource>
+		<resource identifier="KP_105" type="webcontent" adlcp:scormtype="asset" href="ta28158_283919335.jpg">
+			<file href="ta28158_283919335.jpg"/>
+		</resource>
+		<resource identifier="KP_106" type="webcontent" adlcp:scormtype="asset" href="ta28206_835522533.jpg">
+			<file href="ta28206_835522533.jpg"/>
+		</resource>
+		<resource identifier="KP_107" type="webcontent" adlcp:scormtype="asset" href="ta28438_410130025.png">
+			<file href="ta28438_410130025.png"/>
+		</resource>
+		<resource identifier="KP_108" type="webcontent" adlcp:scormtype="asset" href="ta2891_315213443.jpg">
+			<file href="ta2891_315213443.jpg"/>
+		</resource>
+		<resource identifier="KP_109" type="webcontent" adlcp:scormtype="asset" href="ta29265_54603578.jpg">
+			<file href="ta29265_54603578.jpg"/>
+		</resource>
+		<resource identifier="KP_110" type="webcontent" adlcp:scormtype="asset" href="ta29649_454790831.jpg">
+			<file href="ta29649_454790831.jpg"/>
+		</resource>
+		<resource identifier="KP_111" type="webcontent" adlcp:scormtype="asset" href="ta29768_390113593.jpg">
+			<file href="ta29768_390113593.jpg"/>
+		</resource>
+		<resource identifier="KP_112" type="webcontent" adlcp:scormtype="asset" href="ta30015_393986107.jpg">
+			<file href="ta30015_393986107.jpg"/>
+		</resource>
+		<resource identifier="KP_113" type="webcontent" adlcp:scormtype="asset" href="ta30097_607176185.jpg">
+			<file href="ta30097_607176185.jpg"/>
+		</resource>
+		<resource identifier="KP_114" type="webcontent" adlcp:scormtype="asset" href="ta30217_529226542.png">
+			<file href="ta30217_529226542.png"/>
+		</resource>
+		<resource identifier="KP_115" type="webcontent" adlcp:scormtype="asset" href="ta30231_765090585.jpg">
+			<file href="ta30231_765090585.jpg"/>
+		</resource>
+		<resource identifier="KP_116" type="webcontent" adlcp:scormtype="asset" href="ta30327_546720028.jpg">
+			<file href="ta30327_546720028.jpg"/>
+		</resource>
+		<resource identifier="KP_117" type="webcontent" adlcp:scormtype="asset" href="ta30334_670719743.png">
+			<file href="ta30334_670719743.png"/>
+		</resource>
+		<resource identifier="KP_118" type="webcontent" adlcp:scormtype="asset" href="ta30413_123578311.png">
+			<file href="ta30413_123578311.png"/>
+		</resource>
+		<resource identifier="KP_119" type="webcontent" adlcp:scormtype="asset" href="ta30657_277623535.jpg">
+			<file href="ta30657_277623535.jpg"/>
+		</resource>
+		<resource identifier="KP_120" type="webcontent" adlcp:scormtype="asset" href="ta30771_8678080.gif">
+			<file href="ta30771_8678080.gif"/>
+		</resource>
+		<resource identifier="KP_121" type="webcontent" adlcp:scormtype="asset" href="ta31664_705564022.jpg">
+			<file href="ta31664_705564022.jpg"/>
+		</resource>
+		<resource identifier="KP_122" type="webcontent" adlcp:scormtype="asset" href="ta32132_194176436.jpg">
+			<file href="ta32132_194176436.jpg"/>
+		</resource>
+		<resource identifier="KP_123" type="webcontent" adlcp:scormtype="asset" href="ta32173_523056865.png">
+			<file href="ta32173_523056865.png"/>
+		</resource>
+		<resource identifier="KP_124" type="webcontent" adlcp:scormtype="asset" href="ta32211_812754154.png">
+			<file href="ta32211_812754154.png"/>
+		</resource>
+		<resource identifier="KP_125" type="webcontent" adlcp:scormtype="asset" href="ta32_997654915.png">
+			<file href="ta32_997654915.png"/>
+		</resource>
+		<resource identifier="KP_126" type="webcontent" adlcp:scormtype="asset" href="ta3669_43781520.png">
+			<file href="ta3669_43781520.png"/>
+		</resource>
+		<resource identifier="KP_127" type="webcontent" adlcp:scormtype="asset" href="ta3720_363806487.jpg">
+			<file href="ta3720_363806487.jpg"/>
+		</resource>
+		<resource identifier="KP_128" type="webcontent" adlcp:scormtype="asset" href="ta3816_883901835.jpg">
+			<file href="ta3816_883901835.jpg"/>
+		</resource>
+		<resource identifier="KP_129" type="webcontent" adlcp:scormtype="asset" href="ta3834_543476940.jpg">
+			<file href="ta3834_543476940.jpg"/>
+		</resource>
+		<resource identifier="KP_130" type="webcontent" adlcp:scormtype="asset" href="ta3882_227301241.gif">
+			<file href="ta3882_227301241.gif"/>
+		</resource>
+		<resource identifier="KP_131" type="webcontent" adlcp:scormtype="asset" href="ta4095_847301483.png">
+			<file href="ta4095_847301483.png"/>
+		</resource>
+		<resource identifier="KP_132" type="webcontent" adlcp:scormtype="asset" href="ta4141_15010835.png">
+			<file href="ta4141_15010835.png"/>
+		</resource>
+		<resource identifier="KP_133" type="webcontent" adlcp:scormtype="asset" href="ta4330_844483018.jpg">
+			<file href="ta4330_844483018.jpg"/>
+		</resource>
+		<resource identifier="KP_134" type="webcontent" adlcp:scormtype="asset" href="ta444_378229023.gif">
+			<file href="ta444_378229023.gif"/>
+		</resource>
+		<resource identifier="KP_135" type="webcontent" adlcp:scormtype="asset" href="ta5193_170135022.png">
+			<file href="ta5193_170135022.png"/>
+		</resource>
+		<resource identifier="KP_136" type="webcontent" adlcp:scormtype="asset" href="ta5440_344908834.jpg">
+			<file href="ta5440_344908834.jpg"/>
+		</resource>
+		<resource identifier="KP_137" type="webcontent" adlcp:scormtype="asset" href="ta5766_562605501.jpg">
+			<file href="ta5766_562605501.jpg"/>
+		</resource>
+		<resource identifier="KP_138" type="webcontent" adlcp:scormtype="asset" href="ta6167_202067853.jpg">
+			<file href="ta6167_202067853.jpg"/>
+		</resource>
+		<resource identifier="KP_139" type="webcontent" adlcp:scormtype="asset" href="ta6185_972501397.jpg">
+			<file href="ta6185_972501397.jpg"/>
+		</resource>
+		<resource identifier="KP_140" type="webcontent" adlcp:scormtype="asset" href="ta672_76464416.gif">
+			<file href="ta672_76464416.gif"/>
+		</resource>
+		<resource identifier="KP_141" type="webcontent" adlcp:scormtype="asset" href="ta6777_661381722.png">
+			<file href="ta6777_661381722.png"/>
+		</resource>
+		<resource identifier="KP_142" type="webcontent" adlcp:scormtype="asset" href="ta6868_441371203.jpg">
+			<file href="ta6868_441371203.jpg"/>
+		</resource>
+		<resource identifier="KP_143" type="webcontent" adlcp:scormtype="asset" href="ta6967_13922096.png">
+			<file href="ta6967_13922096.png"/>
+		</resource>
+		<resource identifier="KP_144" type="webcontent" adlcp:scormtype="asset" href="ta7206_190598131.jpg">
+			<file href="ta7206_190598131.jpg"/>
+		</resource>
+		<resource identifier="KP_145" type="webcontent" adlcp:scormtype="asset" href="ta7231_756501198.jpg">
+			<file href="ta7231_756501198.jpg"/>
+		</resource>
+		<resource identifier="KP_146" type="webcontent" adlcp:scormtype="asset" href="ta7277_300648213.jpg">
+			<file href="ta7277_300648213.jpg"/>
+		</resource>
+		<resource identifier="KP_147" type="webcontent" adlcp:scormtype="asset" href="ta7412_836137295.png">
+			<file href="ta7412_836137295.png"/>
+		</resource>
+		<resource identifier="KP_148" type="webcontent" adlcp:scormtype="asset" href="ta805_459003807.jpg">
+			<file href="ta805_459003807.jpg"/>
+		</resource>
+		<resource identifier="KP_149" type="webcontent" adlcp:scormtype="asset" href="ta8702_714139462.png">
+			<file href="ta8702_714139462.png"/>
+		</resource>
+		<resource identifier="KP_150" type="webcontent" adlcp:scormtype="asset" href="ta8906_53145171.png">
+			<file href="ta8906_53145171.png"/>
+		</resource>
+		<resource identifier="KP_151" type="webcontent" adlcp:scormtype="asset" href="ta8927_605272890.png">
+			<file href="ta8927_605272890.png"/>
+		</resource>
+		<resource identifier="KP_152" type="webcontent" adlcp:scormtype="asset" href="ta9257_960875750.png">
+			<file href="ta9257_960875750.png"/>
+		</resource>
+		<resource identifier="KP_153" type="webcontent" adlcp:scormtype="asset" href="ta9401_999076247.jpg">
+			<file href="ta9401_999076247.jpg"/>
+		</resource>
+		<resource identifier="KP_154" type="webcontent" adlcp:scormtype="asset" href="ta9435_152004362.jpg">
+			<file href="ta9435_152004362.jpg"/>
+		</resource>
+		<resource identifier="KP_155" type="webcontent" adlcp:scormtype="asset" href="ta9547_599025131.png">
+			<file href="ta9547_599025131.png"/>
+		</resource>
+		<resource identifier="KP_156" type="webcontent" adlcp:scormtype="asset" href="ta9641_382425666.png">
+			<file href="ta9641_382425666.png"/>
+		</resource>
+		<resource identifier="KP_157" type="webcontent" adlcp:scormtype="asset" href="ta9874_138298751.jpg">
+			<file href="ta9874_138298751.jpg"/>
+		</resource>
+		<resource identifier="KP_158" type="webcontent" adlcp:scormtype="asset" href="ta9896_922507644.png">
+			<file href="ta9896_922507644.png"/>
+		</resource>
+		<resource identifier="KP_159" type="webcontent" adlcp:scormtype="asset" href="ta9910_3650905.jpg">
+			<file href="ta9910_3650905.jpg"/>
+		</resource>
+		<resource identifier="KP_160" type="webcontent" adlcp:scormtype="asset" href="ta9942_90216995.jpg">
+			<file href="ta9942_90216995.jpg"/>
+		</resource>
+		<resource identifier="KP_161" type="webcontent" adlcp:scormtype="asset" href="takingphotosforonlineauctions.html">
+			<file href="takingphotosforonlineauctions.html"/>
+		</resource>
+		<resource identifier="KP_162" type="webcontent" adlcp:scormtype="asset" href="up1198_695614815.png">
+			<file href="up1198_695614815.png"/>
+		</resource>
+		<resource identifier="KP_163" type="webcontent" adlcp:scormtype="asset" href="up20665_505937934.png">
+			<file href="up20665_505937934.png"/>
+		</resource>
+		<resource identifier="KP_164" type="webcontent" adlcp:scormtype="asset" href="w8_150150.png">
+			<file href="w8_150150.png"/>
+		</resource>
+		<resource identifier="KP_165" type="webcontent" adlcp:scormtype="asset" href="w8_310150.png">
+			<file href="w8_310150.png"/>
+		</resource>
+		<resource identifier="KP_166" type="webcontent" adlcp:scormtype="asset" href="w8_310310.png">
+			<file href="w8_310310.png"/>
+		</resource>
+		<resource identifier="KP_167" type="webcontent" adlcp:scormtype="asset" href="w8_7070.png">
+			<file href="w8_7070.png"/>
+		</resource>
+		<resource identifier="KP_168" type="webcontent" adlcp:scormtype="asset" href="winwait.png">
+			<file href="winwait.png"/>
+		</resource>
+		<resource identifier="KP_169" type="webcontent" adlcp:scormtype="asset" href="_acibg.png">
+			<file href="_acibg.png"/>
+		</resource>
+		<resource identifier="KP_170" type="webcontent" adlcp:scormtype="asset" href="_kpinvis.gif">
+			<file href="_kpinvis.gif"/>
+		</resource>
+		<resource identifier="KP_171" type="webcontent" adlcp:scormtype="asset" href="_kpoiseethrough.png">
+			<file href="_kpoiseethrough.png"/>
+		</resource>
+	</resources>
+</manifest>
